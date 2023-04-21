@@ -1,5 +1,5 @@
 {
-   "abstract" : "INSERT YOUR ABSTRACT HERE",
+   "abstract" : "HSM encrypted Argon2 hashes for Crypt::Passphrase",
    "author" : [
       "Leon Timmermans <leont@cpan.org>"
    ],
@@ -10,7 +10,7 @@
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "Crypt-Passphrase-Argon2-HSM",
    "prereqs" : {
@@ -26,19 +26,39 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Crypt::HSM" : "0",
+            "Crypt::Passphrase" : "0.010",
+            "Crypt::Passphrase::Argon2::Encrypted" : "0",
+            "parent" : "0",
             "strict" : "0",
             "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0"
          }
       }
    },
    "provides" : {
       "Crypt::Passphrase::Argon2::HSM" : {
          "file" : "lib/Crypt/Passphrase/Argon2/HSM.pm",
-         "version" : "0.000"
+         "version" : "0.001"
       }
    },
    "release_status" : "stable",
-   "version" : "0.000",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Leont/crypt-passphrase-argon2-hsm/issues"
+      },
+      "repository" : {
+         "type" : "git,",
+         "url" : "git://github.com/Leont/crypt-passphrase-argon2-hsm.git",
+         "web" : "https://github.com/Leont/crypt-passphrase-argon2-hsm"
+      }
+   },
+   "version" : "0.001",
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_spdx_expression" : "Artistic-1.0-Perl OR GPL-1.0-or-later"
 }
