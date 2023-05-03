@@ -9,4 +9,4 @@ resources:
 prereqs:
   runtime:
     requires:
-      Crypt-Passphrase-Argon2: 0.008
+      Crypt-Passphrase-Argon2: 0.009
