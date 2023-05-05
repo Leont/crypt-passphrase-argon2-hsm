@@ -1,5 +1,7 @@
 Revision history for Crypt-Passphrase-Argon2-HSM
 
+          - Adapt tests to latest Crypt::Passphrase::Argon2::Encrypted
+
 0.002     2023-05-04 15:28:31+0200
           - Make cipher part of peppered crypt identifiers
 
