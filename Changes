@@ -1,5 +1,7 @@
 Revision history for Crypt-Passphrase-Argon2-HSM
 
+          - Allow for Slot object as slot argument
+
 0.005     2023-10-24 19:29:58+0200
           - Fix test for Crypt::HSM 0.014
 
