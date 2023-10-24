@@ -119,7 +119,7 @@ The PIN that is used for logging in, if any.
 
 =item * user_type
 
-The type of user you're logging in with. This defaults to 'user', and you're unlikely to want to change that.
+The type of user you're logging in with. This defaults to C<'user'>, and you're unlikely to want to change that.
 
 =item * cipher
 
